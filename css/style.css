@@ -1,0 +1,48 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 320px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #000000;
+}
+
+.form__input {
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.form__textarea {
+    min-height: 100px;
+}
+
+.form__btn {
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    color: #000;
+    background-color: rgb(127 169 255 / 42%);
+    transition: background-color .3s linear,
+                color .3s linear;
+}
+
+.form__btn:hover {
+    color: #fff;
+    background-color: rgb(127 169 255 / 1);
+    cursor: pointer;
+}
+
+.success,
+.error {
+    width: max-content;
+    margin: auto;
+    padding: 10px;
+}
+
+.success {
+    border: 3px solid green;
+}
+
+.error {
+    background-color: pink;
+}
